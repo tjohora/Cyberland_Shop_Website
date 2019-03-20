@@ -1,0 +1,28 @@
+h1{
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-family: verdana; 
+}
+
+#signInContent{
+    position: relative;
+    top: 100px;
+    width: 380px;
+    margin-left:250px;
+    border:red double;
+    padding: 20px;
+}
+.bigBold{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#signinButton{
+    width: 100%;
+    background-color: red;
+    color: ivory;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}

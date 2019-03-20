@@ -1,0 +1,83 @@
+h1,h3{
+    margin: 0;   
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#userStatus{
+    text-align: center;
+    padding: 200px 0 100px 0;
+}
+
+.userButton {
+    background-color: #DC143C;
+    color: ivory;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px #DC143C solid;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px
+}
+.userButton:hover{
+    background-color: white;
+    color:#DC143C;
+}
+
+#userOptions{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.inputButton{
+    margin-left: 10px;
+}
+
+.goodDisplay{
+    background-color: lightgreen;
+    color: green;
+    padding: 30px;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.errorDisplay p{
+    color: red;
+    padding: 30px;
+    font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+/*
+.action{
+    border-radius: 25px 25px 0 0;
+    border-bottom: none;
+    float: left;
+}
+#optionsMenu{
+    margin-left: 50px;
+}
+.userContent {
+    display: none;
+}
+.active{
+    display: block;
+    background-color: white;
+    color:#DC143C;
+}
+.inactive{
+    display:none;
+}
+*/

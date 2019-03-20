@@ -1,0 +1,205 @@
+/*To ensure there is no border around the website(allows things to touch the edge of screen)*/
+html, body{
+    background-color:  	#8B3A3A;
+    margin: 0;
+    padding: 0;
+}
+
+/*Makes the contents centred*/
+main{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+/*banner*/
+.banner{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+
+/*nav bar css*/
+nav{
+    background-color: #3D3D3D;
+    height: 54px;
+    z-index: 1000;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    /*position: static;*/
+}
+nav ul{
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+/* search bar*/
+input[type=text], input[type=password] {
+    padding: 6px;
+    width: 280px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+
+/*user buttons*/
+.rightButton{
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:rgba(240,240,240,0.0);
+    color:ivory;
+    border: none;  
+    margin:0px;
+    border-left: .1px white solid;
+    padding: 9px 5px;
+}
+.rightButton:hover{
+    background-color:rgba(240,240,240,0.1);
+}
+
+/* hover buttons and dropdown menus*/
+.dropButton {
+    background-color: #DC143C;
+    color: ivory;
+    padding: 18px;
+    width:140px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdownContent {
+    margin-top: 15px;
+    visibility: hidden;
+    position: absolute;
+    background-color: #f1f1f1;
+    width:100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    /*margin-top: 10px;*/
+    opacity: 0;
+    transition-property: opacity,margin-top;
+    transition-duration: .4s,.4s;  
+}
+.dropdownContent a {
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    display: block;
+}
+.dropdownContent a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdownContent {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+}
+.dropdown:hover .dropButton {
+    background: linear-gradient(#DC143C,#F9365D);
+    color: white;
+}
+
+/*Other buttons on nav css with animation*/
+@keyframes smallJump
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    
+    60%
+    {
+        transform: translateY(-10px);
+    }
+    
+    100%
+    {
+        transform:  translateY(0px%);
+    }
+}
+.imageLink:hover,.cart:hover, .menu:hover, .search:hover{
+  animation-name:smallJump;
+  animation-duration: .25s;
+  animation-timing-function: ease-in-out;
+  background-color:rgba(240,240,240,0.1);
+}
+.imageLink{
+    float: left;
+}
+.menu, .search {   
+    cursor: pointer;
+    float: left;
+    height: 100%;
+    width: 50px;
+}
+.menu{
+    display: none;
+}
+.cart{
+    height: 80%;
+    width: 40px;
+    float: right;
+    padding: 5px;
+    border-left: .1px white solid;
+}
+
+/* stcky navbar css*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.content {
+  padding-top: 54px;
+}
+
+/* footer*/
+footer{
+    background-color: #3D3D3D;
+    height: 100px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.4);
+}
+
+/* Responsive nav for screen size*/
+@media only screen and (max-width: 1100px){
+    nav input[type=text], .search{
+        display: none;
+    }
+}
+@media only screen and (max-width: 735px){
+    ul{
+        display: none;
+    }
+    .imageLink{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}   
+@media only screen and (max-width: 550px){
+    nav input[type=text] {
+        display: none;
+    }
+    .search{
+        display: block;
+    }
+}
+@media only screen and (max-width: 380px){
+    .search,.cart{
+        display: none;
+        
+    }
+}    

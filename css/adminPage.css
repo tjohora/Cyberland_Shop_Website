@@ -1,0 +1,70 @@
+h1,h3{
+    margin: 0px;
+}
+h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+tr{
+    margin: 30px;
+    
+}
+td{
+    border: 1px black solid;
+}
+table{
+    margin-bottom: 100px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.userButton {
+    background-color: #DC143C;
+    color: ivory;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px #DC143C solid;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.userButton:hover{
+    background-color: white;
+    color:#DC143C;
+}
+
+#userOptions{
+    margin-left: 20px;
+}
+
+.goodDisplay{
+    background-color: lightgreen;
+    color: green;
+    padding: 30px;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.errorDisplay p{
+    color: red;
+    padding: 30px;
+    font-size: 20px; 
+}
+
+#productInfo{
+    width: 500px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+.productDisplay{
+    width: 220px;
+    border: 2px black solid;
+    margin: 8px;
+    float: left;
+    height: 280px;
+}
+
+.image {
+   border: 1px solid black;
+   width: 200px;
+   height: 120px;
+   margin: 0 auto;
+   margin-top: 10px
+}​
+
+#recordsFound{
+    position: relative;
+}
+
+p{
+    margin-top: 0;
+    margin-left: 10px  
+}
+
+.nameDisplay{
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.costDisplay{
+    float: right;
+    margin-right: 20px
+}
+.manufacturerDisplay{
+    text-align: center;
+}

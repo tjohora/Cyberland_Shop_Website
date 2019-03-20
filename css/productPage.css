@@ -1,0 +1,59 @@
+#name{
+    font-size: 40px;
+    margin: 0;
+    text-decoration: underline;
+}
+#infoBox{
+    
+    width: 300px;
+    margin: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.thumbnail {
+    opacity: 0.2;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+#bigPic {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: -625px;
+    right: -230px;
+    float: right;
+    border: black 5px solid;
+}	
+
+#thumbnailList{
+    position: relative;
+    float: right;
+    right: 120px;
+}
+
+.userButton {
+    background-color: #DC143C;
+    color: ivory;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px #DC143C solid;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+.userButton:hover{
+    background-color: white;
+    color:#DC143C;
+}
+
+#quantity{
+    
+    width: 40px;
+}
+
+#purchase{
+    margin-left: 50px;
+}

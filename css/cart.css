@@ -1,0 +1,39 @@
+.userButton {
+    background-color: #DC143C;
+    color: ivory;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px #DC143C solid;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.userButton:hover{
+    background-color: white;
+    color:#DC143C;
+}
+
+h2{
+    position: relative;
+    margin: 0;
+    text-align: center;
+    top: 50px;
+}
+
+.thumbnail{
+    float: left;
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 30px; 
+}
+
+.productCart{
+    border: 2px solid black;
+}
+
+audio{
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,74 @@
+/*Timer for sales*/
+#timer{
+    font-size: 32px;
+    margin: 15px;
+}
+
+/*Ad banner slide show css*/
+.adImg{
+    width: 100%;
+    height: 100%;
+}
+#ads{
+    height: 420px;
+}
+#ads div { 
+    position: absolute;
+}
+
+/*Greeting user when log in*/
+#greeting{
+    padding: 30px;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* CSS for when an action is successful*/
+.goodDisplay{
+    background-color: lightgreen;
+    color: green;
+    padding: 30px;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+/*CSS for the featured products*/
+.productDisplay{
+    width: 220px;
+    border: 2px black solid;
+    margin: 8px;
+    float: left;
+    height: 280px;
+}
+.image {
+   border: 1px solid black;
+   width: 200px;
+   height: 120px;
+   margin: 0 auto;
+   margin-top: 10px
+}​
+p{
+    margin-top: 0;
+    margin-left: 10px  
+}
+.nameDisplay{
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+}
+.costDisplay{
+    float: right;
+    margin-right: 20px
+}
+.manufacturerDisplay{
+    text-align: center;
+}
+
+/*Iframes*/
+iframe{
+    margin: 10px;
+}
